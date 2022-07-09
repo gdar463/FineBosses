@@ -1,0 +1,18 @@
+{
+  "type": "bosses:dim_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "bosses:arena_biome",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:netherrack",
+          "height": 10
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

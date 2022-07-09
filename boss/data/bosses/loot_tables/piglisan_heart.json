@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_star",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Broken Heart of a Piglin\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"Maybe this can be used for something....\",\"color\":\"gray\",\"bold\":false,\"italic\":false}']},HideFlags:32,Explosion:{Type:0},Heart:1b,CustomModelData:44002}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1,
+                            "add": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

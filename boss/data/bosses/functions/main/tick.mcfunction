@@ -1,0 +1,1 @@
+function bosses:arena/tick

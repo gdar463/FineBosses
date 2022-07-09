@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "The remains of the fiery heart",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Piglisan Fragments",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:infinity": 1
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:44001,HideFlags:1,Age:-32768,Health:1000000,PiglisanFrag:1b}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:binomial",
+                  "n": 5,
+                  "p": 0.5
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

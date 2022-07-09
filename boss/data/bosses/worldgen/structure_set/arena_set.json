@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bosses:arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1215414647,
+    "spacing": 4096,
+    "separation": 4095,
+    "type": "minecraft:random_spread"
+  }
+}

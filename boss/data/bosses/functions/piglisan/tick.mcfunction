@@ -6,3 +6,8 @@ execute as @e[tag=asPigmanBossC] at @e[tag=asPigmanBossC] run tp @s ~ ~ ~ ~7 ~
 execute as @e[tag=asPigmanBossR] rotated as @e[tag=asPigmanBossC] at @e[tag=asPigmanBossC] run tp ^0.9 ^ ^
 execute as @e[type=zombified_piglin,tag=pigmanBoss] run data modify entity @s AngryAt set from entity @p UUID
 execute store result bossbar bosses:piglisan value run data get entity @e[tag=pigmanBoss,limit=1] Health
+execute as @a[predicate=bosses:in_dim,scores={piglisanSpawn=0}] run scoreboard players enable @s piglisanSpawn
+execute as @a[predicate=!bosses:in_dim] run scoreboard players set @s piglisanSpawn 463
+
+# Trigger Check
+execute if entity @a[predicate=bosses:in_dim,scores={piglisanSpawn=1}] run function bosses:piglisan/spawn

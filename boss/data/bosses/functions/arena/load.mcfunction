@@ -5,3 +5,4 @@ scoreboard objectives add bossCoords dummy
 scoreboard objectives add bossType dummy
 scoreboard objectives add arenaBlock dummy
 scoreboard objectives add inArena dummy
+scoreboard objectives add arenaCancel trigger
